@@ -1,0 +1,1 @@
+web: gunicorn flashcard.wsgi
