@@ -124,8 +124,12 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+
+# MYA_APP_DIR = os.path.dirname(flashcard_app.__file__)
+
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'static'),
+    # os.path.join(BASE_DIR, 'static'),
+    os.path.join(BASE_DIR, 'flashcard_app/static'),
 ]
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
