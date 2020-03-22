@@ -8,7 +8,17 @@
 </head>
 <body>
     {% block 'content' %}
-    This is home.
+    <br>
+    <div class="jumbotron main">
+        <h1 class="display-4">Welcome to Math Flashcards</h1>
+        <p class="lead">Pratice your math skills with these simple flashcards.</p>
+        <hr class="my-4">
+        <p>Solve addition, substraction, multiplication and division for 1 digit math problems.
+        Daily practice for simple math problems can increase your mental calculation skills.
+        </p>
+        <br>
+        <a class="btn btn-primary" href="{% url 'addition' %}" role="button">Let's start</a>
+    </div>
     {% endblock%}
 </body>
 </html>
