@@ -10,8 +10,8 @@ def addition(request):
     """addition page"""
 
     #generate two new random numbers for quizz
-    new_num_1 = randint(0,10)
-    new_num_2 = randint(0,10)
+    new_num_1 = randint(0,9)
+    new_num_2 = randint(0,9)
 
     #check the request method
     if request.method == 'POST':
